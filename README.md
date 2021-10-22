@@ -1,2 +1,2 @@
-# utmstack-updates
-Test repository for future utmstack updates
+# UTMStackUpdates
+Official update repository of UTMStack
