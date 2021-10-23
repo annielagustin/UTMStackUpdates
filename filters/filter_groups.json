@@ -6,8 +6,8 @@
         "filters": [
             {
                 "id": 101,
-                "name": "aws-cwg",
-                "path": "filters/aws/aws-cwg.conf"
+                "name": "aws",
+                "path": "filters/aws/aws.conf"
             }
         ]
     },
@@ -149,12 +149,7 @@
         "filters": [
             {
                 "id": 1001,
-                "name": "sophos-xg",
-                "path": "filters/sophos/sophos-xg.conf"
-            },
-            {
-                "id": 1002,
-                "name": "sophos_xg_firewall",
+                "name": "sophos-xg-firewall",
                 "path": "filters/sophos/sophos_xg_firewall.conf"
             }
         ]
@@ -180,6 +175,30 @@
                 "id": 1201,
                 "name": "vmware-esxi",
                 "path": "filters/vmware/vmware-esxi.conf"
+            }
+        ]
+    },
+    {
+        "id": 1300,
+        "name": "deceptive-bytes",
+        "description": "Deceptive Bytes",
+        "filters": [
+            {
+                "id": 1301,
+                "name": "deceptive-bytes",
+                "path": "filters/deceptivebytes/deceptive-bytes.conf"
+            }
+        ]
+    },
+    {
+        "id": 1400,
+        "name": "netflow",
+        "description": "Netflow",
+        "filters": [
+            {
+                "id": 1401,
+                "name": "netflow",
+                "path": "filters/netflow/netflow.conf"
             }
         ]
     }

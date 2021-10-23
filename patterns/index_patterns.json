@@ -14,7 +14,7 @@
     },
     {
         "id": 4,
-        "pattern": "log-network_flow-*"
+        "pattern": "log-netflow-*"
     },
     {
         "id": 5,
@@ -26,7 +26,7 @@
     },
     {
         "id": 7,
-        "pattern": "log-metricbeat-*"
+        "pattern": "log-metric-*"
     },
     {
         "id": 8,
@@ -61,7 +61,7 @@
     },
     {
         "id": 15,
-        "pattern": "log-firewall-cisco_asa-*"
+        "pattern": "log-firewall-cisco-asa-*"
     },
     {
         "id": 16,
@@ -78,5 +78,25 @@
     {
         "id": 19,
         "pattern": "log-generic-*"
+    },
+    {
+        "id": 20,
+        "pattern": "log-deceptive-bytes-*"
+    },
+    {
+        "id": 21,
+        "pattern": "log-firewall-fortigate-traffic-*"
+    },
+    {
+        "id": 22,
+        "pattern": "log-firewall-ufw-*"
+    },
+    {
+        "id": 23,
+        "pattern": "log-macos-*"
+    },
+    {
+        "id": 24,
+        "pattern": "log-vmware-esxi-*"
     }
 ]
