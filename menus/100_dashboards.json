@@ -148,6 +148,20 @@
                 "ROLE_ADMIN",
                 "ROLE_USER"
             ]
+        },
+        {
+            "id": 111,
+            "parentId": 100,
+            "name": "BORRAR",
+            "url": "dashboard/render/28/aws-activity",
+            "dashboardId": 28,
+            "position": 8,
+            "isActive": false,
+            "isAction": false,
+            "authorities": [
+                "ROLE_ADMIN",
+                "ROLE_USER"
+            ]
         }
     ]
 }
