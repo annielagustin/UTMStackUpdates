@@ -6,6 +6,7 @@
         {
             "id": 101,
             "name": "Asset Management",
+            "shortName": "ASSET",
             "description": "This report provide audit information over all assets on your network",
             "type": "CUSTOM_PDF",
             "restApiUrl": "api/custom-reports/buildAssetManagement",
@@ -15,6 +16,7 @@
         {
             "id": 102,
             "name": "Alert Threat Activity",
+            "shortName": "THREAT_ACTIVITY_ALERT",
             "description": "This report provide audit information over all alerts of threat on your network",
             "type": "CUSTOM_PDF",
             "restApiUrl": "api/custom-reports/buildThreatActivityForAlerts",
@@ -23,6 +25,7 @@
         {
             "id": 103,
             "name": "Incident Threat Activity",
+            "shortName": "THREAT_ACTIVITY_INCIDENT",
             "description": "This report provide audit information over all incidents of threat on your network",
             "type": "CUSTOM_PDF",
             "restApiUrl": "api/custom-reports/buildThreatActivityForIncidents",
