@@ -69,6 +69,7 @@
         {
             "id": 210,
             "name": "Active Directory-All users",
+            "shortName": "AD_USERS",
             "description": "This report provide audit information over all users",
             "type": "CUSTOM_LIST",
             "restApiUrl": "api/compliance/custom/allUsers",
@@ -78,6 +79,7 @@
         {
             "id": 211,
             "name": "Active Directory-Inactive users",
+            "shortName": "AD_INACTIVE_USERS",
             "description": "This report provide audit information over all inactive users",
             "type": "CUSTOM_LIST",
             "restApiUrl": "api/compliance/custom/inactiveUsers",
@@ -87,6 +89,7 @@
         {
             "id": 212,
             "name": "Active Directory-Users with password never expire",
+            "shortName": "AD_USR_PWD_NEVER_EXPIRE",
             "description": "This report provide audit information over all users with password never expire",
             "type": "CUSTOM_LIST",
             "restApiUrl": "api/compliance/custom/usersWithPasswordNeverExpire",
@@ -96,6 +99,7 @@
         {
             "id": 213,
             "name": "Active Directory-Password expired users",
+            "shortName": "AD_USR_PWD_EXPIRED",
             "description": "This report provide audit information over all users with password expired",
             "type": "CUSTOM_LIST",
             "restApiUrl": "api/compliance/custom/usersWithPasswordExpired",
