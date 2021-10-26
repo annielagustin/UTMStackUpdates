@@ -26,7 +26,7 @@
         {
             "id": 402,
             "parentId": 400,
-            "name": "Alerts",
+            "name": "Incidents",
             "url": "data/alert/view?isIncident=IS->true&alertType=INCIDENT",
             "position": 1,
             "isActive": true,
